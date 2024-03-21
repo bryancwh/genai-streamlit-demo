@@ -1,0 +1,8 @@
+faiss-cpu
+transformers
+Pillow
+pypdf
+langchain
+streamlit
+boto3
+pypdf2

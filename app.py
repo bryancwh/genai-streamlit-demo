@@ -4,7 +4,7 @@ import boto3
 
 bedrock_runtime = boto3.client(
     service_name="bedrock-runtime",
-    region_name="us-east-1"
+    region_name="us-west-2"
 )
 
 def claude_prompt_format(prompt: str) -> str:
@@ -41,7 +41,7 @@ def call_claude(prompt):
 def send(result):
     sns = boto3.client(
         service_name='sns',
-        region_name="us-east-1"
+        region_name="us-west-2"
     )
     topic_arn = 'arn:aws:sns:us-east-1:889841231043:demoTopic'
     sns.publish(TopicArn=topic_arn, Message=result)

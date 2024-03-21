@@ -4,7 +4,7 @@ import boto3 #import aws sdk and supporting libraries
 
 def get_text_response(prompt_content,uploaded_content,input_content): #text-to-text client function
 
-    bedrock = boto3.client(service_name='bedrock-runtime', region_name="us-east-1")
+    bedrock = boto3.client(service_name='bedrock-runtime', region_name="us-west-2")
     
     llm = Bedrock( #create a Bedrock llm client
         # credentials_profile_name=os.environ.get("BWB_PROFILE_NAME"), #sets the profile name to use for AWS credentials (if not the default)

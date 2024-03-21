@@ -5,7 +5,7 @@ This application builds a basic web interface to collect a prompt, calls an AI m
 
 1. Clone this repository:
 
-`git clone https://github.com/your_username/project_name.git`
+`git clone https://github.com/bryancwh/genai-streamlit-demo.git`
 
 2. Install requirements:
 

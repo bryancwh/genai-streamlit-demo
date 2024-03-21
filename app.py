@@ -50,6 +50,9 @@ def send(result):
 st.title("Claude AI Demo")
 prompt = st.text_area("Enter prompt")
 
+if 'button' not in st.session_state:
+    st.session_state['button'] = False
+
 if st.button('Run'):
     if st.session_state.get('button') != True:
         st.session_state['button'] = True

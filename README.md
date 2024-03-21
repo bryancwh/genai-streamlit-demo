@@ -1,5 +1,5 @@
-# Project Title
-Brief description of the project.
+# Demo Bedrock Streamlit Application
+This application builds a basic web interface to collect a prompt, calls an AI model for a response, and sends the results to an emailing system - demonstrating a full workflow using Streamlit, Bedrock and AWS services.
 
 ## Setup
 
